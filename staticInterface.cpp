@@ -25,6 +25,7 @@ public:
 class ConcreteB
 {
 public:
+    // print with other return type also works with the Printable concept
     int print() const
     {
         std::cout<<"print b\n";
